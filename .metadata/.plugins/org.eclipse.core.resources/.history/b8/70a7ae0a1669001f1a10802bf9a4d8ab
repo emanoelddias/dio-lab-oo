@@ -1,0 +1,29 @@
+package map.operacoesBasicas;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class ContagemPalavras {
+	
+	private Map<String, Integer> contagemPalavras;
+
+	public ContagemPalavras() {
+		contagemPalavras = new HashMap<String, Integer>();
+	}
+	
+	public void adicionarPalavra(String palavra, Integer contagem) {
+		contagemPalavras.put(palavra, contagem);
+	}
+	
+	public void removerPalavra(String palavra) {
+		contagemPalavras.remove(palavra);
+	}
+	
+	public Map<String, Integer> exibirContagemPalavras(){
+		return contagemPalavras;
+	}
+	
+	
+	
+
+}

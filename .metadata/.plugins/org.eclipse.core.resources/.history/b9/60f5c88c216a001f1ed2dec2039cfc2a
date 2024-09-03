@@ -1,0 +1,7 @@
+package bancoDigital;
+
+public class Cliente {
+	
+	private String nome;
+
+}

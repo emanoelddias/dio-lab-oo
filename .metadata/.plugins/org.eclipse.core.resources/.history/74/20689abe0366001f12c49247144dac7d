@@ -1,0 +1,35 @@
+package list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CatalogoLivros {
+	
+	private List<Livro> catalogoLivros;
+	
+	public CatalogoLivros() {
+		this.catalogoLivros = new ArrayList<>();
+	}
+	
+	public void adicionarLivro(String titulo, String autor, int anoPublicacao) {
+		catalogoLivros.add(new Livro(titulo,autor,anoPublicacao));
+	}
+	
+	public void pesquisarPorAutor(String autor) {
+			
+		if(!catalogoLivros.isEmpty()) {
+			List<Livro> listaLivroPesquisaAutor = new ArrayList<Livro>();
+			
+			for (Livro l : catalogoLivros) {
+				if(l.getAutor().equals(autor)) {
+					listaLivroPesquisaAutor.add(l);
+				}
+			}
+			
+			System.out.println(listaLivroPesquisaAutor);
+		} else {
+			System.out.println("Lista de livros está vazia");
+		}
+	}
+
+}

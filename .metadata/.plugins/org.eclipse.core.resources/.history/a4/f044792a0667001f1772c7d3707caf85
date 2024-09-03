@@ -1,0 +1,20 @@
+package set;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class ListaTarefas {
+	
+	private Set<Tarefa> listaTarefas;
+
+	public ListaTarefas() {
+		listaTarefas = new HashSet<Tarefa>();
+	}
+	
+	public void adicionarTarefa(String descricao){
+		
+	}
+	
+	
+	
+}

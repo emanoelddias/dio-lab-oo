@@ -1,0 +1,21 @@
+package set;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class ConjuntoPalavrasUnicas {
+
+	private Set<palavrasUnicas> conjuntoPalavrasUnicas;
+
+	public ConjuntoPalavrasUnicas() {
+		conjuntoPalavrasUnicas = new HashSet<palavrasUnicas>();
+	}
+	
+	public void adicionarPalavra(String palavra) {
+		conjuntoPalavrasUnicas.add(null);		
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,50 @@
+package set.ordenacao;
+
+import java.util.Comparator;
+
+public class Aluno implements Comparable<Produto> {
+	
+	private String nome;
+	private Long matricula;
+	private double nota;
+	
+	public Aluno(String nome, Long matricula, double nota) {
+		this.nome = nome;
+		this.matricula = matricula;
+		this.nota = nota;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public Long getMatricula() {
+		return matricula;
+	}
+
+	public double getNota() {
+		return nota;
+	}
+
+	@Override
+	public String toString() {
+		return "[nome=" + nome + ", matricula=" + matricula + ", nota=" + nota + "]";
+	}
+
+	@Override
+	public int compareTo(Produto p) {
+		// TODO Auto-generated method stub
+		return nome.compareToIgnoreCase(p.getNome());
+	}	
+
+}
+
+class ComparatorPorNota implements Comparator<Aluno>{
+
+	@Override
+	public int compare(Aluno a1, Aluno a2) {
+		// TODO Auto-generated method stub
+		return Integer.compare(a1.getNota(), a2.getNota());
+	}
+	
+}

@@ -1,0 +1,10 @@
+package set;
+
+public class Convidado {
+	
+	private String nome;
+	private int condigoConvite;
+	
+	
+
+}

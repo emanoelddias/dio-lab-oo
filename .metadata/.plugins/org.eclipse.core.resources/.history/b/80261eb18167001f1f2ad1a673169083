@@ -1,0 +1,20 @@
+package set.ordenacao;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class CadastroProduto {
+	private Set<Produto> cadastroProduto;
+
+	public CadastroProduto() {
+		cadastroProduto = new HashSet<Produto>();
+	}
+	
+	public void adicionarProduto(long cod, String nome, double preco, int quantidade){
+		cadastroProduto.add(new Produto(nome,cod,preco,quantidade));
+	}
+	
+	
+	
+	
+}

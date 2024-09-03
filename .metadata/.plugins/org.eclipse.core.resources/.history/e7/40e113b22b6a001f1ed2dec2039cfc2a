@@ -1,0 +1,11 @@
+package bancoDigital;
+
+public class ContaPoupanca extends Conta {
+	
+	public void imprimirExtrator() {
+		System.out.println("=== Extrato conta Corrente ====");
+		System.out.println("Agencia: " + super.agencia);
+		System.out.println("Numero: " + super.numero);
+		System.out.println("Saldo: " + super.saldo);
+	}
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="projectProwayEAD.Pessoa"/>
+    <fullyQualifiedTypeName name="list.CarrinhoDeCompra"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="javax.sql.rowset.serial.SQLOutputImpl"/>
+    <fullyQualifiedTypeName name="java.sql.SQLOutput"/>
+    <fullyQualifiedTypeName name="list.CatalogoLivros"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="list.ordenacao.ComparatorPorAltura"/>
+    <fullyQualifiedTypeName name="list.ordenacao.Pessoa"/>
+    <fullyQualifiedTypeName name="list.ordenacao.OrdenacaoPessoas"/>
+    <fullyQualifiedTypeName name="list.ordenacao.Numero"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="list.ordenacao.OrdenacaoNumeros"/>
+    <fullyQualifiedTypeName name="set.AgendaContatos"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="set.ListaTarefas"/>
+    <fullyQualifiedTypeName name="set.ordenacao.ComparatorPorPreco"/>
+    <fullyQualifiedTypeName name="set.ordenacao.CadastroProduto"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="javax.swing.event.TreeExpansionEvent"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="set.ordenacao.GerenciadorAlunos"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+</qualifiedTypeNameHistroy>

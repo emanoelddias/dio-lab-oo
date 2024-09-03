@@ -1,0 +1,32 @@
+package map.ordenacao;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class LivrariaOnline {
+	
+	private Map<String, Livro> livros;
+
+	public LivrariaOnline() {
+		livros = new HashMap<String, Livro>();
+	}
+	
+	public void adicionarLivro(String link, String titulo, String autor, double preco) {
+		livros.put(link, new Livro(titulo, autor , preco));
+	}
+	
+	public void removerLivro(String titulo) {
+		for(Map.Entry<String,Livro> e : livros.entrySet()) {
+			if(e.getValue().getTitulo() == titulo) {
+				livros.remove(e);
+				break;
+			}
+		}
+	}
+	
+	public void exibirLivrosOrdenadosPorPreco() {
+		
+	}
+	
+
+}

@@ -1,0 +1,22 @@
+package set;
+
+public class palavrasUnicas {
+	
+	private String palavra;
+
+	public String getPalavra() {
+		return palavra;
+	}
+
+	public palavrasUnicas(String palavra) {
+		super();
+		this.palavra = palavra;
+	}
+
+	@Override
+	public String toString() {
+		return "palavrasUnicas [palavra=" + palavra + "]";
+	}
+	
+
+}

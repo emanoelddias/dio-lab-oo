@@ -1,0 +1,50 @@
+package map.ordenacao;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
+
+public class LivrariaOnline {
+	
+	private Map<String, Livro> livros;
+
+	public LivrariaOnline() {
+		livros = new HashMap<String, Livro>();
+	}
+	
+	public void adicionarLivro(String link, String titulo, String autor, double preco) {
+		livros.put(link, new Livro(titulo, autor , preco));
+	}
+	
+	public void removerLivro(String titulo) {
+		for(Map.Entry<String,Livro> e : livros.entrySet()) {
+			if(e.getValue().getTitulo() == titulo) {
+				livros.remove(e);
+				break;
+			}
+		}
+	}
+	
+	public void exibirLivrosOrdenadosPorPreco() {
+		
+		 List<Map.Entry<String, Livro>> livrosParaOrdenarPorPreco = new ArrayList<>(livros.entrySet());
+
+		    Collections.sort(livrosParaOrdenarPorPreco, new ComparatorPorPreco());
+
+		    Map<String, Livro> livrosOrdenadosPorPreco = new LinkedHashMap<>();
+
+		    for (Map.Entry<String, Livro> entry : livrosParaOrdenarPorPreco) {
+		      livrosOrdenadosPorPreco.put(entry.getKey(), entry.getValue());
+		    }
+
+		    return livrosOrdenadosPorPreco;
+		  }
+
+		
+	}
+	
+
+}

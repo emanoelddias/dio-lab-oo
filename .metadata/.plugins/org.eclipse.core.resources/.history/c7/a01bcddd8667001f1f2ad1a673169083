@@ -1,0 +1,11 @@
+package set.ordenacao;
+
+public class TesteAlunos {
+	
+	public static void main(String[] args) {
+		GerenciadorAlunos listaAlunos = new GerenciadorAlunos();
+		
+		listaAlunos.adicionarAluno("Nome1", 123456, 5.5);
+	}
+
+}

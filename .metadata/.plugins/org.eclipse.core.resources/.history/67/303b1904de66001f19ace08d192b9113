@@ -1,0 +1,31 @@
+package set;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class ConjuntoPalavrasUnicas {
+
+	private Set<PalavrasUnicas> conjuntoPalavrasUnicas;
+
+	public ConjuntoPalavrasUnicas() {
+		conjuntoPalavrasUnicas = new HashSet<PalavrasUnicas>();
+	}
+	
+	public void adicionarPalavra(String palavra) {
+		conjuntoPalavrasUnicas.add(new PalavrasUnicas(palavra));		
+	}
+	
+	public void removerPalavra(String palavra) {
+		PalavrasUnicas palavraParaRemover = null;
+		
+		for(PalavrasUnicas p : conjuntoPalavrasUnicas) {
+			if(p.getPalavra().equalsIgnoreCase(palavra)) {
+				conjuntoPalavrasUnicas.remove(p);
+			}
+		}
+	}
+	
+	
+	
+	
+}

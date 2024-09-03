@@ -1,0 +1,10 @@
+package list.ordenacao;
+
+public class TesteOrdenacaoNumero {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

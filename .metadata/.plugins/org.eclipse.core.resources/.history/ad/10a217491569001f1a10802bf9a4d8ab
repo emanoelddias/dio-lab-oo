@@ -1,0 +1,29 @@
+package map.operacoesBasicas;
+
+public class Palavras {
+	
+	private String palvra;
+	private int contagem;
+	
+	public Palavras(String palvra, int contagem) {
+		this.palvra = palvra;
+		this.contagem = contagem;
+	}
+
+	public String getPalvra() {
+		return palvra;
+	}
+
+	public int getContagem() {
+		return contagem;
+	}
+
+	@Override
+	public String toString() {
+		return "[palvra=" + palvra + ", contagem=" + contagem + "]";
+	}
+	
+	
+	
+
+}

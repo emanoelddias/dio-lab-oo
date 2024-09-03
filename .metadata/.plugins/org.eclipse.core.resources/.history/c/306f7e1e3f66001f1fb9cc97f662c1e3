@@ -1,0 +1,9 @@
+package list.ordenacao;
+
+public class TestePessoas {
+	
+	OrdenacaoPessoas pessoas1 = new OrdenacaoPessoas();
+	
+	
+
+}

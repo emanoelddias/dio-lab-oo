@@ -1,0 +1,10 @@
+package bancoDigital;
+
+public class Main {
+	
+	Conta cc = new ContaCorrente();
+	Conta cp = new ContaPoupanca();
+	
+	
+
+}

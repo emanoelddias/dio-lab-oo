@@ -1,0 +1,23 @@
+package set;
+
+public class Convidado {
+	
+	private String nome;
+	private int condigoConvite;
+	
+	
+	public Convidado(String nome, int condigoConvite) {
+		this.nome = nome;
+		this.condigoConvite = condigoConvite;
+	}	
+	
+	public String getNome() {
+		return nome;
+	}
+	public int getCondigoConvite() {
+		return condigoConvite;
+	}
+	
+	
+
+}
