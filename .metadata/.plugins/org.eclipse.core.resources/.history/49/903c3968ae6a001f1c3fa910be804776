@@ -4,18 +4,13 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		ContaCorrente cc = new ContaCorrente(new Cliente("Emanoel"));
+		ContaCorrente cc = new ContaCorrente();
 		cc.depositar(100);
-		ContaPoupanca cp = new ContaPoupanca(new Cliente("Emanoel"));
+		ContaPoupanca cp = new ContaPoupanca();
 		cc.transferir(10, cp);
 		
 		cc.imprimirExtrato();
 		cp.imprimirExtrato();
-		
-		cc.sacar(150);
-		cc.imprimirExtrato();
-		
-		
 
 	}
 }

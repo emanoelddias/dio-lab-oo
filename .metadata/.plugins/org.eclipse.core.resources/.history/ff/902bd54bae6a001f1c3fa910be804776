@@ -2,11 +2,7 @@ package bancoDigital;
 
 public class Cliente {
 	
-	private String nome;	
-
-	public Cliente(String nome) {
-		this.nome = nome;
-	}
+	private String nome;
 
 	public String getNome() {
 		return nome;

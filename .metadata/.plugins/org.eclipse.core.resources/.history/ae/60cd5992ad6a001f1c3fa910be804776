@@ -1,7 +1,5 @@
 package bancoDigital;
 
-import java.util.List;
-
 public class Banco {
 	
 	private String nome;
@@ -14,16 +12,6 @@ public class Banco {
 	public String getNome() {
 		return nome;
 	}
-
-	public List<Conta> getContas() {
-		return contas;
-	}
-
-	public void setContas(List<Conta> contas) {
-		this.contas = contas;
-	}
-	
-	
 	
 	
 

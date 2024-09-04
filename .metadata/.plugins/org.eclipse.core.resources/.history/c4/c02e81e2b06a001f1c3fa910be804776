@@ -13,9 +13,6 @@ public class Main {
 		cp.imprimirExtrato();
 		
 		cc.sacar(150);
-		cc.imprimirExtrato();
-		
-		
 
 	}
 }
